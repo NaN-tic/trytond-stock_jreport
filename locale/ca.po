@@ -1,0 +1,91 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:stock.move,lot_number:"
+msgid "Lot Number"
+msgstr "Número lot"
+
+msgctxt "report:stock.shipment.out.delivery_note:"
+msgid "Carrier"
+msgstr "Missatger"
+
+msgctxt "report:stock.shipment.out.delivery_note:"
+msgid "Code"
+msgstr "Codi"
+
+msgctxt "report:stock.shipment.out.delivery_note:"
+msgid "Customer Code"
+msgstr "Codi client"
+
+msgctxt "report:stock.shipment.out.delivery_note:"
+msgid "Delivery Note"
+msgstr "Albarà"
+
+msgctxt "report:stock.shipment.out.delivery_note:"
+msgid "Description"
+msgstr "Descripció"
+
+msgctxt "report:stock.shipment.out.delivery_note:"
+msgid "Qty"
+msgstr "Qt."
+
+msgctxt "report:stock.shipment.out.delivery_note:"
+msgid "Shipment Address"
+msgstr "Adreça enviament"
+
+msgctxt "report:stock.shipment.out.delivery_note:"
+msgid "Source document"
+msgstr "Document relacionat"
+
+msgctxt "report:stock.shipment.out.delivery_note_valued:"
+msgid "Code"
+msgstr "Codi"
+
+msgctxt "report:stock.shipment.out.delivery_note_valued:"
+msgid "Customer Code"
+msgstr "Codi client"
+
+msgctxt "report:stock.shipment.out.delivery_note_valued:"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "report:stock.shipment.out.delivery_note_valued:"
+msgid "Delivery Note"
+msgstr "Albarà"
+
+msgctxt "report:stock.shipment.out.delivery_note_valued:"
+msgid "Description"
+msgstr "Descripció"
+
+msgctxt "report:stock.shipment.out.delivery_note_valued:"
+msgid "Price"
+msgstr "Precio"
+
+msgctxt "report:stock.shipment.out.delivery_note_valued:"
+msgid "Qty"
+msgstr "Qt."
+
+msgctxt "report:stock.shipment.out.delivery_note_valued:"
+msgid "Shipment Address"
+msgstr "Adreça d'enviament"
+
+msgctxt "report:stock.shipment.out.delivery_note_valued:"
+msgid "Source document"
+msgstr "Document relacionat"
+
+msgctxt "report:stock.shipment.out.delivery_note_valued:"
+msgid "Tax"
+msgstr "Impost"
+
+msgctxt "report:stock.shipment.out.delivery_note_valued:"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "report:stock.shipment.out.delivery_note_valued:"
+msgid "Untaxed"
+msgstr "Base"
+
+msgctxt "model:ir.action,name:report_shipment_out_delivery_valued"
+msgid "Delivery Note Valued"
+msgstr "Albarà valorat"

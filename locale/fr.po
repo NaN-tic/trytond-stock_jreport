@@ -1,0 +1,35 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "report:stock.shipment.out.delivery_note:"
+msgid "Carrier"
+msgstr "Messager"
+
+msgctxt "report:stock.shipment.out.delivery_note:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "report:stock.shipment.out.delivery_note:"
+msgid "Customer Code"
+msgstr "Code client"
+
+msgctxt "report:stock.shipment.out.delivery_note:"
+msgid "Delivery Note"
+msgstr "Bon de livraison"
+
+msgctxt "report:stock.shipment.out.delivery_note:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "report:stock.shipment.out.delivery_note:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "report:stock.shipment.out.delivery_note:"
+msgid "Source document"
+msgstr "Document source"
+
+msgctxt "report:stock.shipment.out.delivery_note:"
+msgid "Shipment Address"
+msgstr "Adresse de livraison"
