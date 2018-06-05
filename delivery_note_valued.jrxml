@@ -119,20 +119,11 @@
 	<field name="origin_info-origin_info" class="java.lang.String">
 		<fieldDescription><![CDATA[/data/record/origin_info-origin_info]]></fieldDescription>
 	</field>
-	<field name="untaxed_amount_func-untaxed_amount_func" class="java.lang.String">
-		<fieldDescription><![CDATA[/data/record/untaxed_amount_func-untaxed_amount_func]]></fieldDescription>
-	</field>
 	<field name="untaxed_amount-untaxed_amount" class="java.lang.Number">
 		<fieldDescription><![CDATA[/data/record/untaxed_amount-untaxed_amount]]></fieldDescription>
 	</field>
-	<field name="total_amount_func-total_amount_func" class="java.lang.String">
-		<fieldDescription><![CDATA[/data/record/total_amount_func-total_amount_func]]></fieldDescription>
-	</field>
 	<field name="total_amount-total_amount" class="java.lang.Number">
 		<fieldDescription><![CDATA[/data/record/total_amount-total_amount]]></fieldDescription>
-	</field>
-	<field name="tax_amount_func-tax_amount_func" class="java.lang.String">
-		<fieldDescription><![CDATA[/data/record/tax_amount_func-tax_amount_func]]></fieldDescription>
 	</field>
 	<field name="tax_amount-tax_amount" class="java.lang.Number">
 		<fieldDescription><![CDATA[/data/record/tax_amount-tax_amount]]></fieldDescription>
@@ -305,14 +296,14 @@
 					<textElement textAlignment="Right">
 						<font size="9" isBold="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{untaxed_amount-untaxed_amount} ? $F{untaxed_amount-untaxed_amount} : ($F{untaxed_amount_func-untaxed_amount_func} ? $F{untaxed_amount_func-untaxed_amount_func} : '0')]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{untaxed_amount-untaxed_amount} ? $F{untaxed_amount-untaxed_amount} : '0']]></textFieldExpression>
 				</textField>
 				<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="false">
 					<reportElement x="445" y="26" width="80" height="12" uuid="66414bc4-36ae-472e-8ec6-aeda64bf04b7"/>
 					<textElement textAlignment="Right">
 						<font size="9" isBold="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{tax_amount-tax_amount} ? $F{tax_amount-tax_amount} : ($F{tax_amount_func-tax_amount_func} ? $F{tax_amount_func-tax_amount_func} : '0')]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{tax_amount-tax_amount} ? $F{tax_amount-tax_amount} : '0']]></textFieldExpression>
 				</textField>
 				<textField>
 					<reportElement x="390" y="26" width="55" height="12" uuid="4bf4d17d-3d71-4f2b-a8ba-b2edb20048c9"/>
@@ -326,7 +317,7 @@
 					<textElement textAlignment="Right">
 						<font fontName="DejaVu Sans" size="9" isBold="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{total_amount-total_amount} ? $F{total_amount-total_amount} : ($F{total_amount_func-total_amount_func} ? $F{total_amount_func-total_amount_func} : '0')]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{total_amount-total_amount} ? $F{total_amount-total_amount} : '0']]></textFieldExpression>
 				</textField>
 				<textField>
 					<reportElement x="390" y="12" width="55" height="12" uuid="4f4e9de8-ee37-40c9-b4dd-54c05521252f"/>
