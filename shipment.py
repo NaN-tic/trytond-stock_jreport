@@ -8,18 +8,15 @@ from trytond.modules.jasper_reports.jasper import JasperReport
 __all__ = ['DeliveryNote', 'DeliveryNoteValued', 'Move']
 
 
-class DeliveryNote(JasperReport):
-    __metaclass__ = PoolMeta
+class DeliveryNote(JasperReport, metaclass=PoolMeta):
     __name__ = 'stock.shipment.out.delivery_note'
 
 
-class DeliveryNoteValued(JasperReport):
-    __metaclass__ = PoolMeta
+class DeliveryNoteValued(JasperReport, metaclass=PoolMeta):
     __name__ = 'stock.shipment.out.delivery_note_valued'
 
 
-class Move:
-    __metaclass__ = PoolMeta
+class Move(metaclass=PoolMeta):
     __name__ = 'stock.move'
     lot_number = fields.Function(fields.Char('Lot Number'), 'get_lot_number')
 
